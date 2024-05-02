@@ -11,10 +11,11 @@
 	<h2>Bienvenido</h2>
 	<p>Por favor, ingresa tus credenciales</p>
 	<form action="">
-		<input class="inputTexto" type="text" name="username" placeholder="Nombre de usuario" required><br>
-		<input class="inputTexto" type="password" name="password" placeholder="Contraseña" required><br>
-		<button type="submit"><i class="fa-solid fa-right-to-bracket"></i><br>Ingresar</button>
+		<input class="inputTexto" type="text" name="email" id="txtEmail" placeholder="Email" required><br>
+		<input class="inputTexto" type="password" name="password" id="txtPassword" placeholder="Contraseña" required><br>
+		<button type="button" onclick="iniciarSesion()"><i class="fa-solid fa-right-to-bracket"></i>Ingresar</button>
 	</form>
 </div>
+<script src="js/login.js"></script>
 </body>
 </html>

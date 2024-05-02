@@ -55,12 +55,11 @@ form input{
 	border: 2px solid #0080ff;
 }
 
-button[type="submit"]{
+button{
 	height: 50px;
 	width: 100px;
 	border:2px solid transparent;
 	border-radius:15px;
-	
 }
 
 i{
@@ -69,7 +68,7 @@ i{
 }
 
 
-button[type="submit"]:hover{
+button:hover{
 	border: 2px solid #80ffff;
 }
 
